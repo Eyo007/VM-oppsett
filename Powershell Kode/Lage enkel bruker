@@ -1,0 +1,2 @@
+$Settpassord = ConvertTo-SecureString -AsPlainText "Passord123" -Force
+New-ADUser -Name "Hele Navn" -Surname "etternavn" -SamAccountName "Brukernavn" -UserPrincipalName "E-post" Enabled $true -AccountPassword $Settpassord -Path "OU=NEWC,DC=drift,DC=DM" 
