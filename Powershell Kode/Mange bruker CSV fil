@@ -1,0 +1,6 @@
+FirstName,LastName,UserName,Password,OU
+Ola,Nordmann,onordmann,Password,"OU=IM2,DC=drift,DC=hem"
+Kari,Hansen,khansen,Password,"OU=IM2,DC=drift,DC=hem"
+Per,Andersen,pandersen,Password,"OU=IM2,DC=drift,DC=hem"
+Anne,Berg,aberg,Password,"OU=IM2,DC=drift,DC=hem"
+Jens,Lie,jlie,Password,"OU=IM2,DC=drift,DC=hem"
