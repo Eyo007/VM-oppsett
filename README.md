@@ -1,20 +1,15 @@
-Hva jeg skal gjøre i prosjektet
-Sette opp en server på Hyper-V:
 
-Installer Hyper-V og opprett en virtuell maskin.
-Installer operativsystemet på den virtuelle maskinen.
-Konfigurere DHCP:
+Jeg skal utvikle et systemoppsett som er en enkel versjon av systemoppsette til en en bedrift.
 
-Aktiver og sett opp DHCP på serveren.
-Konfigurer nødvendige innstillinger som IP-range, subnett og gateway.
-Test DHCP-funksjonen for å bekrefte at klienter får riktige IP-adresser.
-Installere OPNsense og lage en brannmur:
+Denne vil inkludere de mest grunnleggende komponentene for å oppfylle bedriftens behov:
 
-Sett opp en virtuell maskin for OPNsense.
-Installer og konfigurer OPNsense som brannmur.
-Lag regler i brannmuren for å styre trafikken inn og ut av nettverket.
-Lage brukere og gi rettigheter:
-
-Opprett brukerkontoer i systemet.
-Gi hver bruker nødvendige rettigheter basert på roller eller oppgaver.
-Test tilgang for å sikre at brukerne kun har tilgang til det de skal.
+Server for sentral administrasjon og tjenester.
+DHCP for dynamisk tildeling av IP-adresser.
+DNS for effektiv håndtering av domenenavn.
+Webserver for hosting av nettsider og applikasjoner.
+Filserver for sikker lagring og deling av filer.
+Brukere med definerte roller og tilgangsnivåer.
+Klienter som kan til domenet.
+Brannmur for sikkerhet.
+Powershell kode for enkel inføring av mange brukere.
+Og Andre funksjoner 
