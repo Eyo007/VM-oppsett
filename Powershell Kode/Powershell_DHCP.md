@@ -1,16 +1,15 @@
 # 🖧 Oppsett av DHCP med PowerShell
 
-## 📌 Forutsetninger
+## 📌 Hva du trenger klart
 - Windows Server installert
 - PowerShell kjøres som administrator
-- Get er for å se hva som ble gjort
 
 ---
 
 ## 1. Installer DHCP-serverrollen
 
 ```powershell
-Install-WindowsFeature -Name DHCP -IncludeManagementTools
+Install-WindowsFeature -Name DHCP -IncludeManagementTools -IncludeAllSubFeature
 ```
 
 Sjekk at DHCP-rollen er installert:
